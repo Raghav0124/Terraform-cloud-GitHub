@@ -11,7 +11,7 @@ terraform {
 provider "aws" {
         region = "us-east-1" 
         #profile = "default"
-	}
+}
 
 resource "aws_instance" "Raghuinfra" {
 	ami = "ami-0c2b8ca1dad447f8a" 
